@@ -20,7 +20,7 @@ desired_caps['platformName'] = 'Android'
 desired_caps['platformVersion'] = '5.1'
 desired_caps['deviceName'] = 'a2643548'
 desired_caps['app'] = os.path.abspath(
-    '/Users/xuchu/mycode/mypy/LeHome/Lehome_if_test/android_appium_autotest/android_autotest/beta_apk_yellow/lehome-dev_0.8.0-968-5597cbe-beta-qa.apk')
+    'qa.apk')
 # desired_caps['appPackage'] = 'org.athrun.android.app'
 desired_caps['waitForAppScript'] = '$.delay(2000); $.acceptAlert();'
 wd = webdriver.Remote('http://0.0.0.0:4723/wd/hub', desired_caps)
